@@ -2,7 +2,7 @@
 
 ## App
 
-- https://challenge_localize_lawtech.vercel.app/
+- https://challenge-localize-lawtech.vercel.app/
 
 ## Principais Tecnologias utilizadas
 
