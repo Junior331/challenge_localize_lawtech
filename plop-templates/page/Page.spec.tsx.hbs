@@ -1,0 +1,18 @@
+import { act } from "@testing-library/react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { renderCustom } from "@/utils/renderCustom";
+import { {{pascalCase name}} } from "./{{pascalCase name}}";
+
+describe("render {{pascalCase name}}", () => {
+  test("renders without crashing", () => {
+    act(() => {
+      renderCustom(
+        <BrowserRouter>
+          <Routes>
+            <Route path="/{{pascalCase name}}" element={<{{pascalCase name}} />} />
+          </Routes>
+        </BrowserRouter>
+      );
+    });
+  });
+});
